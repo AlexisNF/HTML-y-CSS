@@ -64,14 +64,40 @@
         <label for="password2">Contraseña</label>
         <input type="password" name="Password2" id="password2" placeholder="Repita su contraseña" required>
         <br>
-        <select name="Pais" id="paisSelect" required>
+        <label for="paisSelect2">Pais:</label>
+        <select name="Pais2" id="paisSelect2" required>
             <option value="Seleccionar">--Seleccione--</option>
             <option value="España">Avenida</option>
             <option value="Francia">Calle</option>
             <option value="Portugal">Callejon</option>
             <option value="Andorra">Callejon</option>
         </select>
-        
+        <br>
+        <br>
+        <span>Seleccione tipo de cuenta</span>
+        <br>
+        <input type="radio" name="Cuenta" id="cuentaG" value="Cuenta Gratuita">
+        <label for="cuentaG">Cuenta Gratuita</label>
+        <span id="descripCG"> ----Esta cuenta no te da acceso a nada, no seas tacaño invierte mas</span>
+        <br>
+        <input type="radio" name="Cuenta" id="cuentaB" value="Cuenta Basica">
+        <label for="cuentaB">Cuenta Basica</label>
+        <span id="descripCB"> ----Te da lo basico... por unos dias</span>
+        <br>
+        <input type="radio" name="Cuenta" id="cuentaP" value="Cuenta Premium">
+        <label for="cuentaP">Cuenta Premium</label>
+        <span id="descripCP"> ----La unica cuenta que vale la pena, una ves que hipoteques tu casa para pagarla</span>
+        <br>
+        <label for="byMe">Sobre mi</label>
+        <br>
+        <textarea name="SobreMi" id="byMe" cols="30" rows="10" placeholder="Una breve biografia"></textarea>
+        <br>
+        <span>Su foto por defecto</span>
+        <br>
+        <img src="http://revistacontinente.com.br/public/uploads/data/files/Edicao_175/Jack-Black-Net-Worth.jpg" alt="Jack Black" width="100" height="80">
+        <br>
+        <span>Suba su CV</span>
+        <input type="file" name="File" id="fileId">
         
 
     </form> 
@@ -83,15 +109,3 @@
 
 
 
-
-f. Número de teléfono, validar el formato del mismo solo con HTML
-g. Correo electrónico
-h. Contraseña
-i. Repetir contraseña
-j. Seleccionar país entre (España, Francia, Portugal y Andorra).
-k. Tipo de cuenta (Gratuita, Básica o Premium).
-i. Cada tipo de cuente debe contar con una descripción.
-ii. (Opcional) La descripción solo debe mostrarse cuando se selecciona el tipo de cuenta.
-l. Sobre mí. Campo en que el usuario puede hacer una breve descripción de sus interese.
-m. Foto de perfil.
-n. Permitir subir CV.

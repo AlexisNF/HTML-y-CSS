@@ -5,3 +5,28 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
+#descripCG,#descripCB,#descripCP{
+  display: none;
+}
+
+#cuentaG:checked+label+span{ 
+  display: block;
+  background-color: aquamarine;
+}
+
+#cuentaB:checked+label+span{ 
+  display: block;
+  background-color: aquamarine;
+}
+
+#cuentaP:checked+label+span{ 
+  display: block;
+  background-color: aquamarine;
+}
+
+
+  
+  
+
+
+
